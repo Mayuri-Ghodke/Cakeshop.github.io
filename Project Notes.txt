@@ -1,0 +1,68 @@
+cakeshop name Sweet Hours Bakery Shop Since 2021 "we bake sweet memories"
+
+Product Delivery Cities - Aurangabad, Kannad, Vaijapur, Sillod, Jalna
+
+style used for font-family is "'Comic Sans MS', Times, serif;"
+
+#FC0370 - pink
+
+#FABED9 - faint pink
+
+#A91B60 - dark pink
+
+#A569BD - purple
+
+#EBBDFD - faint purple
+
+#7B4678 - dark purple
+
+#2b343b - black shade
+
+for mandatory fields color is :-
+#FE0202 - red
+<span class="form-required" title="This field is required." style="color: #FE0202;">*</span>
+
+our specialities - Rose N Honey Cakes, Designer Chocolate Vanilla Cakes, Linzer Cookies.
+
+Bakery slogan - we bake sweet memories (since 2021).
+
+register form link to sign up button present in login form.
+
+cart logo tag - <ion-icon name="cart-outline"></ion-icon>
+ion-icon {
+  color: #FC0370;
+}
+
+login page link :-
+https://bbbootstrap.com/snippets/login-form-background-image-15064663
+
+
+Icons Link :-
+https://ionic.io/ionicons
+
+Icon for Account link : - <ion-icon name="person"></ion-icon>
+
+Payment Procedure :-
+
+Click on Product link --- Particular Product Page will Open ---> fill the info of product & click on Buy Now btn --- Product will Add to Cart & opens add to cart page ---> We can see selected product info & click on Proceed to checkout --- Proceed to Checkout page will open ---> fill the info & click on Countinue to Next Step --- Payment Page will Open ---> Here We can do Payment Procedure (2 types 1. Online and 2. Cash on Delivery).
+
+
+Payment Page W3Schools :-
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_checkout_form
+
+
+                <!-- col-sm-4 starts here -->
+                <div class="col-sm-4">
+                    <!-- card8 starts here -->
+                    <div class="card">
+                        <img src="./Images/30.jpg" alt="">
+                        <!-- card-body starts here -->
+                        <div class="card-body text-center p-3">
+                            Almond Linzer Cookies <br>
+                            Rs. 660 - Rs. 1,660
+                            <!-- card-body starts here -->
+                        </div>
+                        <!-- card8 ends here -->
+                    </div>
+                    <!-- col-sm-4 ends here -->
+                </div>

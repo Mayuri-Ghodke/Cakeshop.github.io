@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Page | Sweet Hours</title>
+    <link rel="stylesheet" href="./asset/css/bootstrap.min.css">
+    <!-- link for payment card icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- container starts here -->
+    <div class="container mt-5">
+
+        <!-- main row starts here -->
+        <div class="row">
+
+            <!-- main col-sm-8 starts here -->
+            <div class="col-sm-8 offset-sm-2">
+
+                <!-- nested row starts here -->
+                <div class="row">
+
+                    <!-- nested col-sm-6 starts here -->
+                    <div class="col-sm-6 col-6 col-md-6 p-5" style="background-color: #EBBDFD;">
+                        <!-- cakeshop name Sweet Hours -->
+                        <div>
+                            <h4 class="" style="color: #FC0370; font-family: 'Comic Sans MS', Times, serif; text-align: right;">Sweet Hours</h4>
+                        </div>
+                        <br>
+
+                        <h5 style="color: #A569BD;"><b>Choose a Payment Option</b></h5> <br>
+                        
+                        <!-- icons -->
+                        <div class="icon-container">
+                            <i class="fa fa-cc-visa" style="color:navy;"></i>
+                            <i class="fa fa-cc-amex" style="color:blue;"></i>
+                            <i class="fa fa-cc-mastercard" style="color:red;"></i>
+                            <i class="fa fa-cc-discover" style="color:orange;"></i>
+                        </div>
+                        <br><br>
+
+                        <div class="form-check">
+                            <input name="cards" type="radio" class="form-check-input" id="credit">
+                            <label for="credit">Credit Card</label>
+                        </div>
+
+                        <div class="form-check">
+                            <input name="cards" type="radio" class="form-check-input" id="debit">
+                            <label for="debit">Debit Card</label>
+                        </div>
+                        <br><br>
+
+                        <label for="amount">Total Payable Amount : <span id="amount">xxx</span></label> <br><br>
+                        <label for="transactionId">Transaction Id : <span id="transactionId">xxxx</span></label>
+
+                        <!-- nested col-sm-6 ends here -->
+                    </div>
+
+                    <!-- nested col-sm-6 starts here -->
+                    <div class="col-sm-6 col-6 col-md-6 p-5" style="background-color: #FABED9;">
+
+                        <label>Name on Card :</label> <br>
+                        <!-- input-group1 starts here -->
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="John More Doe" style="border-radius: 40px; border-color: #FC0370;">
+                            <!-- input-group1 ends here -->
+                        </div>
+                        <br>
+
+                        <label>Expiry :</label> <br>
+                        <!-- input-group2 starts here -->
+                        <div class="input-group mb-3">
+                            <input type="date" class="form-control" placeholder="mm/yy" style="border-radius: 40px; border-color: #FC0370;">
+                            <!-- input-group2 ends here -->
+                        </div>
+                        <!-- <br> -->
+
+                        <label>CVV :</label> <br>
+                        <!-- input-group3 starts here -->
+                        <div class="input-group mb-3">
+                            <input type="password" class="form-control" placeholder="Enter CVV" style="border-radius: 40px; border-color: #FC0370;">
+                            <!-- input-group3 ends here -->
+                        </div>
+                        <br>
+
+                        <label>Card Number :</label> <br>
+                        <!-- input-group4 starts here -->
+                        <div class="input-group mb-3">
+                            <input type="number" class="form-control" placeholder="1111-2222-3333-4444" style="border-radius: 40px; border-color: #FC0370;">
+                            <!-- input-group4 ends here -->
+                        </div>
+                        <br>
+
+                        <a href="checkoutdone.html">
+                            <button type="submit" class="btn w-50 offset-3" style="border-radius: 40px; border-color: #FC0370; background-color: #FC0370; color: white;">Proceed</button>
+                        </a>
+                        
+                        <!-- nested col-sm-6 ends here -->
+                    </div>
+
+                    <!-- nested row ends here -->
+                </div>
+                <!-- main col-sm-8 ends here -->
+            </div>
+
+            <!-- main row ends here -->
+        </div>
+        <br><br><br>
+        <h6 class="text-secondary text-center">By proceeding, you understand that your information will be processed as per PayU's Privacy Policy</h6>
+        <br>
+        <!-- container ends here -->
+    </div>
+    
+    <script src="./asset/js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
